@@ -1,0 +1,41 @@
+:root {
+    --color-bg: #FAFAFA;
+    --color-icon-blue: #1976D2;
+    --color-title: #00796B;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--color-bg);
+}
+
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    width: 55%;
+    border: 2px solid red;
+    overflow: hidden;
+    border-radius: 10px;
+    height: auto;
+}
+
+.card__image-container {
+    flex: 0 0 50%;
+    width: auto;
+    height: auto;
+}
+
+.image-container__image {
+    width: 100%;
+    height: 100%;
+}
