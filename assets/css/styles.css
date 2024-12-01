@@ -23,7 +23,7 @@ body {
 
 .card {
     display: flex;
-    width: 55%;
+    width: 56%;
     border: 2px solid red;
     overflow: hidden;
     border-radius: 10px;
